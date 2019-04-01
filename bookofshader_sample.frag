@@ -20,6 +20,5 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 
     // Uncomment to see the subdivided grid
     // color = vec3(fpos,0.0);
-
     fragColor = vec4(color,1.0);
 }
